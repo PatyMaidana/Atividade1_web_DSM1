@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    background-color: #f4f4f4;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.card{
+    background-color: #fff;
+    border-radius: 10px; 
+    min-width: 800px;  
+    max-width: 800px; 
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.8);
+    padding: 2rem;
+}
+.course-text{
+line-height: 1.65rem;
+text-align: justify;
+}
+.title{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-fatec {
+  width: 162px;
+  height: 62px;
+}
+.logo-dsm {
+  width: 357px;
+  height: 119px;
+}
+.logo-cps {
+  width: 192px;
+  height: 128px;
+}
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    
+}
+.btn-link {
+    display: inline-flex;
+    gap: 10rem;
+    padding: 0.7rem 1rem;
+    background-color: #1f6feb;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    border-radius: 8px;
+    font-weight: 500;
+
+}
+.container-login {
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    align-items: center;
+}
+.forms {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 0.2em;
+    width: 100%;
+    padding-bottom: 1rem;
+}
+.actions2 {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+.cadastro-conteiner{
+     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5em;
+}
